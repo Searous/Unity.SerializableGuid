@@ -1,0 +1,11 @@
+{
+	"name": "searous.serializableguiduid",
+	"version": "1.0.0",
+	"displayName": "Serializable GUID",
+	"description": "A simple serializable wrapper for System.Guid.",
+	"unity": "",
+	"author": {
+		"name": "Katie Kennedy (Searous)",
+		"email": "searousx20@gmail.com"
+	}
+}
