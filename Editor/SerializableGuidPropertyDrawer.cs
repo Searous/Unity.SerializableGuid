@@ -1,5 +1,3 @@
-using BadCupcake.Cyclic.Item;
-using BadCupcake.Cyclic.Utility;
 using System;
 using UnityEditor;
 using UnityEngine;
@@ -36,7 +34,7 @@ public class SerializableGuidPropertyDrawer : PropertyDrawer {
             EditorGUIUtility.systemCopyBuffer = serializedGuid.stringValue;
         }
         if(GUI.Button(new Rect(position.xMin + buttonSize * 2, position.yMin, buttonSize, ySep - 2), "Empty")) {
-            serializedGuid.stringValue = ItemStack.emptyItemId.ToString();
+            serializedGuid.stringValue = Guid.Empty.ToString();
         }
  
         // Draw fields - passs GUIContent.none to each so they are drawn without labels

@@ -1,3 +1,15 @@
 {
-	"name": "Unity.SerializableGuid.Editor"
+    "name": "Unity.SerializableGuid.Editor",
+    "references": [
+        "GUID:c85f41d4379abdb4eafe8f0f3fe7380b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
