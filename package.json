@@ -1,5 +1,5 @@
 {
-	"name": "searous.serializableguiduid",
+	"name": "searous.serializableguid",
 	"version": "1.0.0",
 	"displayName": "Serializable GUID",
 	"description": "A simple serializable wrapper for System.Guid.",
